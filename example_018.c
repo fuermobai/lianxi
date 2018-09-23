@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main()
+int main()
 {
     float a,b,c;
     float s,area;
@@ -20,8 +20,9 @@ void main()
 			printf("直角三角形\n");
 		else 
 		printf("普通三角形\n");
-    } else {
-	    printf("普通三角形\n");
-    	
+    }
+
+    else {
+	    printf("不能够成三角形\n");
     }
 }
